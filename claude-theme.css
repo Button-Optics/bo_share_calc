@@ -1,0 +1,70 @@
+:root {
+  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-serif: Georgia, "Times New Roman", serif;
+  --font-mono: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+
+  --color-background-primary: #ffffff;
+  --color-background-secondary: #f5f4f0;
+  --color-background-tertiary: #eae9e5;
+  --color-background-info: #E6F1FB;
+  --color-background-danger: #FCEBEB;
+  --color-background-success: #EAF3DE;
+  --color-background-warning: #FAEEDA;
+
+  --color-text-primary: #1a1a1a;
+  --color-text-secondary: #666660;
+  --color-text-tertiary: #999990;
+  --color-text-info: #0C447C;
+  --color-text-danger: #791F1F;
+  --color-text-success: #27500A;
+  --color-text-warning: #633806;
+
+  --color-border-primary: rgba(0, 0, 0, 0.4);
+  --color-border-secondary: rgba(0, 0, 0, 0.3);
+  --color-border-tertiary: rgba(0, 0, 0, 0.15);
+  --color-border-info: #85B7EB;
+  --color-border-danger: #F09595;
+  --color-border-success: #97C459;
+  --color-border-warning: #FAC775;
+
+  --border-radius-md: 8px;
+  --border-radius-lg: 12px;
+  --border-radius-xl: 16px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-background-primary: #1a1a1a;
+    --color-background-secondary: #2a2a28;
+    --color-background-tertiary: #333330;
+    --color-background-info: #042C53;
+    --color-background-danger: #501313;
+    --color-background-success: #173404;
+    --color-background-warning: #412402;
+
+    --color-text-primary: #ececec;
+    --color-text-secondary: #a0a098;
+    --color-text-tertiary: #706f6a;
+    --color-text-info: #85B7EB;
+    --color-text-danger: #F09595;
+    --color-text-success: #C0DD97;
+    --color-text-warning: #FAC775;
+
+    --color-border-primary: rgba(255, 255, 255, 0.4);
+    --color-border-secondary: rgba(255, 255, 255, 0.3);
+    --color-border-tertiary: rgba(255, 255, 255, 0.15);
+    --color-border-info: #185FA5;
+    --color-border-danger: #A32D2D;
+    --color-border-success: #3B6D11;
+    --color-border-warning: #854F0B;
+  }
+}
+
+body {
+  font-family: var(--font-sans);
+  color: var(--color-text-primary);
+  background: var(--color-background-primary);
+  margin: 0;
+  padding: 24px;
+  line-height: 1.5;
+}
